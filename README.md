@@ -1,75 +1,99 @@
-# React Real-Time Chat App
+# Real-Time Chat Application
 
-### About:
+This is a **Real-Time Chat Application** built with **NodeJS**, **Express**, **Socket.IO**, and **React**. The app provides users with a seamless real-time messaging experience, allowing multiple users to join and chat in real-time.
 
-This is a real-time chat application built using React (Create React App on the frontend) and NodeJS/Express/Socket.io Backend.
+## Tech Stack
 
-Users are able to join groups and message other users in real-time.
+- **Backend**: Node.js, Express, Socket.IO
+- **Frontend**: React (Create React App), React Router 4, SASS
+- **Utilities**: Moment.js (for timestamps)
 
-### Tech Stack:
+## Features
 
-* NodeJS/Express
-* SOCKET.IO
-* React (Create React App)
-* React Router 4
-* Moment JS
-* SASS
+- **Real-Time Messaging**: Built with Socket.IO for real-time communication.
+- **Multi-Room Support**: Users can join different chat rooms.
+- **User Notifications**: Users are notified when someone joins or leaves the chat.
+- **Timestamped Messages**: Each message shows when it was sent using Moment.js.
+- **Responsive Design**: Optimized for both desktop and mobile devices.
 
-## Software 
+## Demo
 
-Before proceeding, please ensure you have the following software installed on your computer.
+Check out the live demo [here](#) (replace with your demo link if available).
 
-* Node
-* Yarn (optional but recommended)
-* Git command line tools
+## Installation
 
-### Useful links
+### Prerequisites
 
-* Download Git CLT - Windows: https://git-scm.com/download/windows Mac: https://git-scm.com/download/mac
-* Download Node - https://nodejs.org/en/
-* Download Yarn CLT - https://yarnpkg.com/lang/en/docs/install/
-* Download VSCode - https://code.visualstudio.com/
+- Node.js (>= 14.x)
+- npm or yarn
 
-## Getting started
+### Backend Setup
 
-Please fork a copy of this repository. Forking a repository allows you to freely experiment with changes without affecting the original project. Alternatively download or clone the master branch.
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/YuriiLohvynenko/live-chat-app-react.git
+   cd live-chat-app-react
 
-### Download & Install Dependencies on your machine 
 
-Clone the repo to your machine 
+2. **Install Backend Dependencies** Navigate to the server directory and install dependencies:
+   ```bash
+   cd Backend
+   npm install
 
-```
-git clone <CloneURL>
-```
+3. **Environment Setup** Create a .env file in the server directory with the following configuration:
+   ```bash
+   PORT=5000
 
-### Lunch the backend
+4. **Run the Backend** Start the backend server:
+   ```bash
+   npm start
 
-1)	Within terminal or cmd ensure you have navigated inside the 'Backend' directory and installed the dependencies
+   The server will run on http://localhost:5000.
 
-```
-cd <../path/to/Backend> 
-yarn install OR npm install
-```
+### Frontend Setup
 
-2) Run the start script
+1. **Navigate to the Frontend Directory**
+   ```bash
+   cd ../Frontend/app
 
-``` 
-yarn run start OR npm run start
-```
+2. **Install Frontend Dependencies**
+   ```bash
+   npm install
 
-### Lunch the frontend
+3. **Run the Frontend** Start the React app in development mode:
+   ```bash
+   npm start
 
-1) Open a new terminal window and navigate inside the 'Frontend' folder as you will need to keep the backend running in the background
+The app will run on http://localhost:3000.
 
-```
-cd <../path/to/Frontend> 
-yarn install OR npm install
-```
+### Usage
 
-2) Run the start script
+- Open the app in two or more browser windows to simulate multiple users.
+- Enter a chat room and start sending messages in real-time.
+- The messages will appear instantly across all users in the same room.
 
-``` 
-yarn run start OR npm run start
-```
+### Folder Structure
+   ```bash
+   ├── Frontend/app              # Frontend React code
+│   ├── src
+│   ├── public
+│   ├── package.json
+│   └── ...
+├── Backend              # Backend NodeJS/Express code
+│   ├── index.js        # Entry point for the server
+│   ├── package.json
+│   └── ...
+└── .env                # Environment configuration
 
-Your app should be running on: http://localhost:3000
+### Contributing
+Contributions are welcome! Please follow the contribution guidelines.
+   1. Fork the repository.
+   2. Create a new branch (git checkout -b feature/your-feature).
+   3. Commit your changes (git commit -am 'Add feature').
+   4. Push to the branch (git push origin feature/your-feature).
+   5. Create a new pull request.
+
+## License
+This project is open-source and licensed under the MIT License.
+
+**Thank you for checking out this Real-Time Chat Application! If you find this project useful, don’t forget to give it a ⭐ on GitHub.**
