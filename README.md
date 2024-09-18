@@ -18,7 +18,7 @@ This is a **Real-Time Chat Application** built with **NodeJS**, **Express**, **S
 
 ## Demo
 
-Check out the live demo [here](#) (replace with your demo link if available).
+Check out the live demo [here](#) .
 
 ## Installation
 
@@ -73,17 +73,17 @@ The app will run on http://localhost:3000.
 - The messages will appear instantly across all users in the same room.
 
 ### Folder Structure
-   ```bash
-   ├── Frontend/app              # Frontend React code
-│   ├── src
-│   ├── public
-│   ├── package.json
-│   └── ...
-├── Backend              # Backend NodeJS/Express code
-│   ├── index.js        # Entry point for the server
-│   ├── package.json
-│   └── ...
-└── .env                # Environment configuration
+      ```bash
+      ├── Frontend/app              # Frontend React code
+   │   ├── src
+   │   ├── public
+   │   ├── package.json
+   │   └── ...
+   ├── Backend              # Backend NodeJS/Express code
+   │   ├── index.js        # Entry point for the server
+   │   ├── package.json
+   │   └── ...
+   └── .env                # Environment configuration
 
 ### Contributing
 Contributions are welcome! Please follow the contribution guidelines.
