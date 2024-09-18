@@ -80,6 +80,17 @@ The app will run on http://localhost:3000.
 - Enter a chat room and start sending messages in real-time.
 - The messages will appear instantly across all users in the same room.
 
+### Contributing
+Contributions are welcome! Please follow the contribution guidelines.
+   1. Fork the repository.
+   2. Create a new branch (git checkout -b feature/your-feature).
+   3. Commit your changes (git commit -am 'Add feature').
+   4. Push to the branch (git push origin feature/your-feature).
+   5. Create a new pull request.
+
+## License
+This project is open-source and licensed under the MIT License.
+
 ### Folder Structure
    ```bash
    ├── Frontend/app              # Frontend React code
@@ -95,15 +106,5 @@ The app will run on http://localhost:3000.
 
 
 
-### Contributing
-Contributions are welcome! Please follow the contribution guidelines.
-   1. Fork the repository.
-   2. Create a new branch (git checkout -b feature/your-feature).
-   3. Commit your changes (git commit -am 'Add feature').
-   4. Push to the branch (git push origin feature/your-feature).
-   5. Create a new pull request.
 
-## License
-This project is open-source and licensed under the MIT License.
-
-**Thank you for checking out this Real-Time Chat Application! If you find this project useful, don’t forget to give it a ⭐ on GitHub.**
+Thank you for checking out this Real-Time Chat Application! If you find this project useful, don’t forget to give it a ⭐ on GitHub.
