@@ -6,8 +6,8 @@ This is a **Real-Time Chat Application** built with **NodeJS**, **Express**, **S
 ![Node](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=Node.js&logoColor=white)
 ![Express](https://img.shields.io/badge/Expressjs-000000?style=for-the-badge&logo=Express&logoColor=white)
 ![Socket.IO](https://img.shields.io/badge/Socket.IO-010101?style=for-the-badge&logo=socket.io&logoColor=white)
-![Moment.js](https://img.shields.io/badge/Moment.js-000000?style=for-the-badge&logo=moment.js&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Moment.js](https://img.shields.io/badge/Moment.js-000000?style=for-the-badge&logo=moment.js&logoColor=white)
 
 
 ## Tech Stack
